@@ -10,9 +10,7 @@ const Counter = () => {
 
     return (
         <div>
-            <p onClick={() => {
-                setCount(0);
-            }}>Button clicked {count} times.</p>
+            <p>Button clicked {count} times</p>
             <button onClick={btnHandle}>Click me</button>
         </div>
     )
